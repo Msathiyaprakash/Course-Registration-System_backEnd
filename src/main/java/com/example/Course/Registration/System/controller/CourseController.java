@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://127.0.0.1:5500/")    // *** solves cors api problem , html local host address
+@CrossOrigin(origins = "*")    // *** solves cors api problem , html local host address
 public class CourseController {
 
     @Autowired
